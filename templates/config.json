@@ -1,0 +1,31 @@
+{
+  "signing": {
+    "default": {
+      "expiry": "450000h"
+    },
+    "profiles": {
+      "www": {
+        "usages": [
+          "signing",
+          "digital signature",
+          "content committment",
+          "key encipherment",
+          "key agreement",
+          "data encipherment",
+          "cert sign",
+          "crl sign",
+          "encipher only",
+          "decipher only",
+          "any",
+          "server auth",
+          "client auth",
+          "code signing",
+          "email protection",
+          "timestamping",
+          "ocsp signing"
+        ],
+        "expiry": "450000h"
+      }
+    }
+  }
+}

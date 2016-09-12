@@ -1,0 +1,12 @@
+{
+  "CN":"{{.CommonName}}",
+  "key": {
+    "algo": "rsa",
+    "size": 4096
+  },
+  "names": [
+    {
+      "O": "{{.Org}}"
+    }
+  ]
+}

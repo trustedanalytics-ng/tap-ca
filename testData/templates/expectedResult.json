@@ -1,0 +1,12 @@
+{
+  "CN":"default-common-name",
+  "key": {
+    "algo": "rsa",
+    "size": 4096
+  },
+  "names": [
+    {
+      "O": "default-org"
+    }
+  ]
+}
